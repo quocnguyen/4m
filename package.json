@@ -1,0 +1,19 @@
+{
+  "name": "4m",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | tap-diff"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "2.0.0",
+    "pino": "2.11.0",
+    "supertest": "2.0.0",
+    "tap-diff": "0.1.1",
+    "tape": "4.6.0"
+  }
+}
