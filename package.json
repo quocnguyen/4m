@@ -4,14 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js | pino -l",
     "test": "tape test/*.js | tap-diff"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "consolidate": "0.14.1",
     "dotenv": "2.0.0",
+    "finalhandler": "0.5.0",
+    "mustache": "2.2.1",
     "pino": "2.11.0",
+    "router": "1.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.10.2",
     "supertest": "2.0.0",
     "tap-diff": "0.1.1",
     "tape": "4.6.0"
